@@ -18,7 +18,7 @@ const Layout = ({ children, theme }) => {
         }}
       >
         <label>
-          {theme.type === "light" ? "Go dark mood" : " Go light mood"}
+          {theme.type === "light" ? "Go dark mode" : " Go light mode"}
           <input
             type="checkbox"
             onChange={(e) => theme.onThemeToggle(e.currentTarget.value)}
